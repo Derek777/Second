@@ -1,3 +1,6 @@
+@import "normalize";
+
+
 $bg: #fff000;
 $bg2: #222222;
 body {
@@ -5,7 +8,7 @@ body {
 }
 
 p {
-  background-color: darkmagenta;
+  background-color: red;
   border: solid;
   border-radius: 3px;
 }

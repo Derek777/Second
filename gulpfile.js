@@ -3,6 +3,7 @@ let gulp         = require('gulp'),
     sync         = require('browser-sync').create(),
     autoprefixer = require('gulp-autoprefixer');
 
+
 gulp.task('autoprefixer', function () {
     gulp.src('app/css/main.css')
         .pipe(autoprefixer({
@@ -19,7 +20,9 @@ gulp.task('autoprefixer', function () {
 
 gulp.task("scss", function () {
     return gulp.src("app/scss/main.scss")
-        .pipe(scss())
+        .pipe(scss({
+            includePaths: require('node-normalize-scss').includePaths
+        }))
         .pipe(gulp.dest("app/css/"))
         .pipe(sync.stream());
 
