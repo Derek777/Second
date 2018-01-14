@@ -1,13 +1,11 @@
 body {
-    background-color: #fff000;
-}
+  background-color: #fff000; }
 
 p {
-    background-color: lawngreen;
-    border: solid;
-    border-radius: 3px;
-}
+  background-color: darkmagenta;
+  border: solid;
+  border-radius: 3px; }
 
 a {
-    padding: 4px;
-}
+  padding: 4px;
+  font-size: 12px; }

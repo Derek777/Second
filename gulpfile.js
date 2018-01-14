@@ -18,10 +18,11 @@ gulp.task('autoprefixer', function () {
 
 
 gulp.task("scss", function () {
-    gulp.src("app/scss/main.scss")
+    return gulp.src("app/scss/main.scss")
         .pipe(scss())
         .pipe(gulp.dest("app/css/"))
         .pipe(sync.stream());
+
 });
 
 gulp.task('server', function () {
