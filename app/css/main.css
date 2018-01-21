@@ -406,6 +406,11 @@ template {
 
 .header {
   padding: 37px 0 15px 24px; }
+  .header:before, .header:after {
+    display: table;
+    content: " "; }
+  .header:after {
+    clear: both; }
   .header__logo {
     float: left; }
   .header__nav {
@@ -415,13 +420,16 @@ template {
   background-image: url("../img/logo.png");
   background-size: cover;
   width: 287px;
-  height: 76px; }
+  height: 76px;
+  display: block; }
 
 .nav__item {
   padding: 0 10px;
   list-style-type: none;
   display: inline-block;
   border-right: thin dashed #b7b7b7; }
+  .nav__item_last {
+    border: none; }
 
 .item {
   text-decoration: none; }
@@ -437,3 +445,8 @@ template {
     font-family: Tahoma;
     font-size: 11px;
     font-weight: 400; }
+
+.slider {
+  background-image: url("../img/slider_bg.png");
+  background-repeat: no-repeat;
+  min-height: 430px; }

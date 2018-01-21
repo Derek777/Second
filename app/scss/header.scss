@@ -1,4 +1,5 @@
 .header {
+  @include clearfix;
   padding: 37px 0 15px 24px;
   &__logo {
     float: left;
@@ -8,18 +9,22 @@
   }
 }
 
-.logo{
+.logo {
   background-image: url("../img/logo.png");
   background-size: cover;
   width: 287px;
   height: 76px;
+  display: block;
 }
 
-.nav__item{
+.nav__item {
   padding: 0 10px;
   list-style-type: none;
   display: inline-block;
   border-right: thin dashed $grey;
+  &_last{
+    border: none;
+  }
 }
 
 .item {
