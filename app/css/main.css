@@ -389,5 +389,51 @@ template {
 [hidden] {
   display: none; }
 
-body {
-  background-color: #fff000; }
+.container {
+  width: 100%;
+  max-width: 940px;
+  position: relative;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: Georgia;
+  src: url("../fonts/georgia.ttf"); }
+
+/* Connect font "Tahoma-Regular"; */
+@font-face {
+  font-family: Tahoma;
+  src: url("../fonts/tahoma.ttf"); }
+
+.header {
+  padding: 37px 0 15px 24px; }
+  .header__logo {
+    float: left; }
+  .header__nav {
+    float: right; }
+
+.logo {
+  background-image: url("../img/logo.png");
+  background-size: cover;
+  width: 287px;
+  height: 76px; }
+
+.nav__item {
+  padding: 0 10px;
+  list-style-type: none;
+  display: inline-block;
+  border-right: thin dashed #b7b7b7; }
+
+.item {
+  text-decoration: none; }
+  .item__header {
+    text-transform: uppercase;
+    color: #666;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0; }
+  .item__text {
+    color: #b7b7b7;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: 400; }

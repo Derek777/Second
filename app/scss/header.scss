@@ -1,0 +1,41 @@
+.header {
+  padding: 37px 0 15px 24px;
+  &__logo {
+    float: left;
+  }
+  &__nav {
+    float: right;
+  }
+}
+
+.logo{
+  background-image: url("../img/logo.png");
+  background-size: cover;
+  width: 287px;
+  height: 76px;
+}
+
+.nav__item{
+  padding: 0 10px;
+  list-style-type: none;
+  display: inline-block;
+  border-right: thin dashed $grey;
+}
+
+.item {
+  text-decoration: none;
+  &__header {
+    text-transform: uppercase;
+    color: #666;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+  }
+  &__text {
+    color: $grey;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: 400;
+  }
+}

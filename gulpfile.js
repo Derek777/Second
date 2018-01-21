@@ -20,9 +20,7 @@ gulp.task('autoprefixer', function () {
 
 gulp.task("scss", function () {
     return gulp.src("app/scss/main.scss")
-        .pipe(scss({
-            includePaths: require('node-normalize-scss').includePaths
-        }))
+        .pipe(scss())
         .pipe(gulp.dest("app/css/"))
         .pipe(sync.stream());
 
@@ -40,7 +38,7 @@ gulp.task('server', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch("app/scss/main.scss", gulp.task('scss'));
+    gulp.watch("app/scss/*.scss", gulp.task('scss'));
 });
 
 gulp.task('default', gulp.parallel('watch', 'server'));
