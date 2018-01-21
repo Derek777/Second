@@ -1,20 +1,4 @@
 @import "normalize";
+@import "base";
 
 
-$bg: #fff000;
-$bg2: #222222;
-body {
-  background-color: $bg;
-}
-
-p {
-  background-color: red;
-  border: solid;
-  border-radius: 3px;
-}
-
-a {
-  padding: 4px;
-  font-size: 12px;
-
-}

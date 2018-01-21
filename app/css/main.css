@@ -391,12 +391,3 @@ template {
 
 body {
   background-color: #fff000; }
-
-p {
-  background-color: red;
-  border: solid;
-  border-radius: 3px; }
-
-a {
-  padding: 4px;
-  font-size: 12px; }
