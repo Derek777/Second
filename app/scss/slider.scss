@@ -1,5 +1,74 @@
-.slider{
+.slider {
   background-image: url("../img/slider_bg.png");
   background-repeat: no-repeat;
   min-height: 430px;
+  padding-top: 22px;
+}
+
+.slider__slider {
+  margin: 0;
+}
+
+.slider__slider:after {
+  content: '';
+  background-image: url("../img/shadow.png");
+  width: 92%;
+  height: 14px;
+  opacity: 0.5;
+  display: inline-block;
+  margin: 0 4%;
+}
+
+.slider__text{
+  color: black;
+  font-family: Georgia;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+}
+
+.slider__img{
+
+}
+
+.slick-slide {
+  outline: none;
+}
+
+.slick-dots li button {
+  width: 17px;
+  height: 17px;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  background-image: url("../img/dot_white.png");
+  //background-size: cover;
+}
+
+.slick-dots li button:before {
+  width: 17px;
+  height: 17px;
+  content: '';
+}
+
+.slick-dots li.slick-active button:before {
+  background-image: url("../img/dot_blue.png");
+  opacity: .75;
+  color: black;
+}
+
+.slick-dots li {
+  width: 17px;
+  height: 17px;
+  margin: 0 2px;
+}
+
+.slick-dots {
+  bottom: 24px;
+  right: 400px;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 5px;
 }
