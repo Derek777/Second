@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list id="3700f48f-9088-46f4-9ed6-67603b0d84b0" name="New changelist" comment="www" />
     <list default="true" id="b4d95c31-9581-44a9-8f54-e8e7121861e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/slider_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/jquery_migrate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/break.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/dot_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/dot_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/slide.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/slider.scss" afterPath="$PROJECT_DIR$/app/scss/slider.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -185,6 +183,12 @@
               <item name="Second" type="b2602c69:ProjectViewProjectNode" />
               <item name="Second" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Second" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -193,6 +197,14 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="slick" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Second" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="slick" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Second" type="b2602c69:ProjectViewProjectNode" />
@@ -259,7 +271,7 @@
       <workItem from="1515949524444" duration="5991000" />
       <workItem from="1515957118502" duration="2864000" />
       <workItem from="1516542081716" duration="12670000" />
-      <workItem from="1516639680398" duration="10601000" />
+      <workItem from="1516639680398" duration="10770000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1515951944167</created>
@@ -338,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516567957439</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="content start">
+      <created>1516655941345</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1516655941366</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58005000" />
+    <option name="totallyTimeSpent" value="58174000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -355,9 +374,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1060" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13902053" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13902053" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -435,7 +453,8 @@
     <MESSAGE value="add base.scss" />
     <MESSAGE value="header end" />
     <MESSAGE value="header fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="header fix" />
+    <MESSAGE value="content start" />
+    <option name="LAST_COMMIT_MESSAGE" value="content start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
