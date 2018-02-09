@@ -28,8 +28,8 @@
   margin-top: 0;
 }
 
-.slider__img{
-
+.strip{
+  @include img-center;
 }
 
 .slick-slide {

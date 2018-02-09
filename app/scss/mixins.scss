@@ -8,4 +8,14 @@
     clear: both;
   }
 }
+
+@mixin img-center{
+  display: block;
+  margin: 0 auto;
+}
+
+$fa-font-path:   "../fonts/font-awesome-4.7.0/fonts";
+
+
 $grey : #b7b7b7;
+
