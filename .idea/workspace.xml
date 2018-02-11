@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list id="3700f48f-9088-46f4-9ed6-67603b0d84b0" name="New changelist" comment="www" />
     <list default="true" id="b4d95c31-9581-44a9-8f54-e8e7121861e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/social.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/main.scss" afterPath="$PROJECT_DIR$/app/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/mixins.scss" afterPath="$PROJECT_DIR$/app/scss/mixins.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -248,7 +244,7 @@
       <workItem from="1518189605722" duration="18000" />
       <workItem from="1518191643513" duration="510000" />
       <workItem from="1518196060607" duration="1541000" />
-      <workItem from="1518340495751" duration="1763000" />
+      <workItem from="1518340495751" duration="1811000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1515951944167</created>
@@ -348,11 +344,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518191915433</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="social start">
+      <created>1518353073387</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1518353073387</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80933000" />
+    <option name="totallyTimeSpent" value="80981000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -447,7 +450,8 @@
     <MESSAGE value="content start" />
     <MESSAGE value="slider fix" />
     <MESSAGE value="after win res" />
-    <option name="LAST_COMMIT_MESSAGE" value="after win res" />
+    <MESSAGE value="social start" />
+    <option name="LAST_COMMIT_MESSAGE" value="social start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
