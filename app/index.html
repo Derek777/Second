@@ -116,33 +116,66 @@
 
 <section class="content">
     <div class="container">
-        <div class="content__card card social" >
-            <p class="social__header">Social Connection</p>
-            <p class="social__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-            <div class="icons">
-                <a href="#" class="icons__item icons__item_rss"></a>
-                <a href="#" class="icons__item icons__item_fb"></a>
-                <a href="#" class="icons__item icons__item_in"></a>
-                <a href="#" class="icons__item icons__item_yt"></a>
-                <a href="#" class="icons__item icons__item_tw"></a>
-            </div>
-            <button class="card__button">
-                Learn More<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </button>
-        </div>
-        <div class="content__card card content__card_middle" >
-
-            <button class="card__button">
-                Learn More<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </button>
-        </div>
         <div class="content__card card" >
-
-            <button class="card__button">
-                Learn More<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </button>
+            <div class="social">
+                <p class="social__header">Social Connection</p>
+                <p class="social__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                <div class="icons">
+                    <a href="#" class="icons__item icons__item_rss"></a>
+                    <a href="#" class="icons__item icons__item_fb"></a>
+                    <a href="#" class="icons__item icons__item_in"></a>
+                    <a href="#" class="icons__item icons__item_yt"></a>
+                    <a href="#" class="icons__item icons__item_tw"></a>
+                </div>
+            </div>
+            <div class="mail">
+                <p class="mail__header">Newsletter</p>
+                <p class="mail__text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                </p>
+                <form name="mail" method="post" action="#" class="mail__form">
+                    <input class="mail__email" type="email" placeholder="your email address">
+                    <div class="wrapp-input">
+                        <input class="mail__submit" type="submit" value="Subscribe"><i class="fa fa-long-arrow-right mail__arrow" aria-hidden="true"></i>
+                    </div>
+                </form>
+            </div>
         </div>
-        <img class="slider__img" src="img/break.png" alt="break">
+        <div class="content__card card content__card_middle contact" >
+            <p class="contact__header">Contact</p>
+            <form name="contact" method="post" action="#" class="contact__form cont">
+                <input class="cont__name" type="text" placeholder="your name">
+                <input class="mail__email" type="email" placeholder="your email address">
+                <textarea class="cont__text" type="text" placeholder="message"></textarea>
+                <div class="wrapp-input">
+                    <input class="mail__submit" type="submit" value="Send it"><i class="fa fa-long-arrow-right mail__arrow" aria-hidden="true"></i>
+                </div>
+            </form>
+        </div>
+        <div class="content__card card news" >
+            <p class="news__header">News Updates</p>
+            <div class="news__item">
+                <img class="news__img" src="img/new_1.png" alt="img">
+                <p class="news__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="news__item">
+                <img class="news__img" src="img/new_2.png" alt="img">
+                <p class="news__text">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                </p>
+            </div>
+            <div class="news__item">
+                <img class="news__img" src="img/new_3.png" alt="img">
+                <p class="news__text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                </p>
+            </div>
+            <div class="wrapp-input">
+                <input class="mail__submit" type="button" value="Visit our Blog"><i class="fa fa-long-arrow-right mail__arrow" aria-hidden="true"></i>
+            </div>
+        </div>
     </div>
 </section>
 <script type="text/javascript" src="js/jquery.js"></script>

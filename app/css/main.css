@@ -2734,6 +2734,14 @@ template {
   font-family: Tahoma;
   src: url("../fonts/tahoma.ttf"); }
 
+@font-face {
+  font-family: GillSansMT;
+  src: url("../fonts/GIL_____.TTF"); }
+
+@font-face {
+  font-family: Verdana;
+  src: url("../fonts/Verdana.ttf"); }
+
 .header {
   padding: 37px 0 15px 24px; }
   .header:before, .header:after {
@@ -2924,3 +2932,141 @@ template {
       background-position-y: -3px; }
     .icons__item_tw {
       background-image: url("../img/social/tw.png"); }
+
+.wrapp-input {
+  position: relative; }
+
+.mail__header {
+  color: #444;
+  font-family: GillSansMT;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed lightgrey; }
+
+.mail__text {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px; }
+
+.mail__email {
+  box-sizing: border-box;
+  width: 100%;
+  height: 33px;
+  background-color: white;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  margin-bottom: 11px;
+  font-family: Verdana;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 16px; }
+
+.mail__submit {
+  background-image: url("../img/submit.png");
+  width: 163px;
+  height: 33px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  color: white;
+  font-family: Georgia;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  padding: 2px 5px 0 15px; }
+
+.mail__arrow {
+  color: white;
+  position: absolute;
+  left: 65px;
+  top: 12px;
+  font-size: 12px; }
+
+.contact__header {
+  color: #444;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  border-bottom: 1px dashed lightgrey; }
+
+.contact__name {
+  box-sizing: border-box;
+  width: 100%;
+  height: 33px;
+  background-color: white;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  margin-bottom: 11px;
+  font-family: Verdana;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 16px; }
+
+.contact__text {
+  width: 100%; }
+
+.cont__name {
+  box-sizing: border-box;
+  width: 100%;
+  height: 33px;
+  background-color: white;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  margin-bottom: 11px;
+  font-family: Verdana;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 16px; }
+
+.cont__text {
+  box-sizing: border-box;
+  width: 100%;
+  height: 33px;
+  background-color: white;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  margin-bottom: 11px;
+  font-family: Verdana;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 16px;
+  margin-bottom: 8px;
+  line-height: 27px;
+  height: 162px; }
+
+.news__item {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px dashed lightgrey; }
+  .news__item:before, .news__item:after {
+    display: table;
+    content: " "; }
+  .news__item:after {
+    clear: both; }
+
+.news__header {
+  color: #444;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  border-bottom: 1px dashed lightgrey; }
+
+.news__img {
+  float: left;
+  margin-right: 10px; }
+
+.news__text {
+  margin-top: 0;
+  color: #444;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px; }

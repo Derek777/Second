@@ -41,3 +41,108 @@
     }
   }
 }
+
+.wrapp-input{
+  position: relative;
+}
+
+.mail{
+  &__form{
+  }
+  &__header{
+    color: #444;
+    font-family: GillSansMT;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 10px;
+    @include border-bottom;
+  }
+  &__text{
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  &__email {
+    @include input
+  }
+  &__submit{
+    background-image: url("../img/submit.png");
+    width: 163px;
+    height: 33px;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    color: white;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    padding: 2px 5px 0 15px;
+  }
+  &__arrow{
+    color: white;
+    position: absolute;
+    left: 65px;
+    top:12px;
+    font-size: 12px;
+  }
+}
+.contact{
+  &__header{
+    color: #444;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    @include border-bottom;
+  }
+  &__name{
+    @include input
+  }
+  &__text{
+    width: 100%;
+  }
+}
+
+
+.cont{
+  &__name{
+    @include input;
+  }
+  &__text{
+    @include input;
+    margin-bottom: 8px;
+    line-height: 27px;
+    height: 162px;
+  }
+}
+
+.news{
+  &__item{
+    @include clearfix;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    @include border-bottom;
+  }
+  &__header{
+    color: #444;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    @include border-bottom;
+  }
+  &__img{
+    float: left;
+    margin-right: 10px;
+  }
+  &__text{
+    margin-top: 0;
+    color: #444;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+}
