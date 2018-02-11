@@ -2890,3 +2890,37 @@ template {
   text-align: right;
   display: inline-block;
   margin-left: 70px; }
+
+.social__header {
+  color: #444;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 5px;
+  border-bottom: 1px dashed lightgrey; }
+
+.social__text {
+  color: #444;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px; }
+
+.icons {
+  margin-bottom: 40px; }
+  .icons__item {
+    display: inline-block;
+    width: 56px;
+    height: 56px; }
+    .icons__item_rss {
+      background-image: url("../img/social/rss.png"); }
+    .icons__item_fb {
+      background-image: url("../img/social/fb.png"); }
+    .icons__item_in {
+      background-image: url("../img/social/in.png"); }
+    .icons__item_yt {
+      background-image: url("../img/social/yt.png");
+      background-position-y: -3px; }
+    .icons__item_tw {
+      background-image: url("../img/social/tw.png"); }

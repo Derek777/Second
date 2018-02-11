@@ -1,1 +1,43 @@
-//start
+.social{
+  &__header{
+    color: #444;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 5px;
+    @include border-bottom;
+  }
+  &__text{
+    color: #444;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+}
+
+.icons{
+  margin-bottom: 40px;
+  &__item{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    &_rss{
+      background-image: url("../img/social/rss.png");
+    }
+    &_fb{
+      background-image: url("../img/social/fb.png");
+    }
+    &_in{
+      background-image: url("../img/social/in.png");
+    }
+    &_yt{
+      background-image: url("../img/social/yt.png");
+      background-position-y: -3px ;
+    }
+    &_tw{
+      background-image: url("../img/social/tw.png");
+    }
+  }
+}
